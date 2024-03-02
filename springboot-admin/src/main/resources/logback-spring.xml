@@ -10,7 +10,7 @@ debug：当此属性设置为true时，将打印出logback内部日志信息，�
     <!-- 定义日志文件名称 -->
     <property name="APP_NAME" value="springboot-admin" />
     <!-- 定义日志文件的路径 -->
-    <property name="LOG_PATH" value="${user.home}/${APP_NAME}/logs" />
+    <property name="LOG_PATH" value="${user.dir}/${APP_NAME}/logs" />
     <!-- 定义日志的文件名 -->
     <property name="LOG_FILE" value="${LOG_PATH}/${APP_NAME}.log" />
 
